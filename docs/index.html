@@ -2,22 +2,21 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>Mark Smithivas</title>
-
+    <script src="https://kit.fontawesome.com/8276f48660.js" crossorigin="anonymous"></script>
+    
     <style>
+
      .items {
       display: flex;
       flex-direction: column;
       gap: 30px;
       max-width: 640px;
+      flex-grow: 1;
      }
      
      body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: #e5e5f7;
-        opacity: 0.8;
-        background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #e5e5f7 1px);
-        background-size: 20px 20px;
+        display: flex;
+        justify-content: center;
       }
 
       .name {
@@ -25,13 +24,14 @@
         padding-bottom: 40px;
         color:blue;
         font-size: large
+        justify-content: center;
       }
 
-      .banner-image {
-        width: 128px;
-        height: 128px;
+      .banner {
+        display: flex;
+        justify-content: center;
         object-fit: cover;
-        border-radius: 128px;
+        border-radius: 64px
       }
 
       .thumbnail {
@@ -45,6 +45,16 @@
         color:blue;
         text-decoration: none;
       }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      
+
     </style>
 
 </head>
@@ -55,48 +65,51 @@
 
 <div class="items">
 
-  <div class="banner">
-  <img src="mark_profile2.jpg" alt="Mark Smithivas headshot" class="banner-image">
+<div class="banner">
+<img src="mark_profile2.jpg" alt="Mark Smithivas headshot">
 </div>
 <div class="name">
-Mark Smithivas
+<h3>Mark Smithivas</h3>
 </div>
 
 <div class="social-links">
-  
+  <i class="fa-regular fa-file"></i>
   <a href="https://www.linkedin.com/in/wirelessartist" target="_blank">
   <h1>LinkedIn</h1>
   </a>
 
+  <i class="fa-regular fa-file"></i>
   <a href="https://www.twitter.com/1god" target="_blank">
     <h1>Twitter</h1>
     </a>
 
+  <i class="fa-regular fa-file"></i>
     <a href="https://marksmithivas.substack.com" target="_blank">
       <h1>Substack</h1>
       </a>
-
-      
 
 </div>
 
 <div class="link">
   
+  <i class="fa-regular fa-file"></i>
   <a href="cv2.html" target="_blank">
-  <h1>CV2</h1>
+  <h1>Resume 2</h1>
   </a>
 
+  <i class="fa-regular fa-file"></i>
   <a href="cv3.html" target="_blank">
-    <h1>CV3</h1>
+    <h1>Resume 3</h1>
     </a>
 
+    <i class="fa-regular fa-file"></i>
     <a href="cv4.html" target="_blank">
-      <h1>CV4</h1>
+      <h1>Resume 4</h1>
       </a>
 
-      
 
 </div>
+
 
 <p></p>
 
